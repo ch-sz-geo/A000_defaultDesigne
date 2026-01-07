@@ -2,6 +2,6 @@
 ifdef::env-github[]
 [discrete]
 = Standart Designes
-Die akktuellen Designefiles sind;
+Die akktuellen Designefiles sind unter https://ch-sz-geo.github.io/A000_defaultDesigne/ sichtbar.
 
 endif::[]
