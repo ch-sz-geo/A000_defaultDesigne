@@ -11,11 +11,11 @@ on:
   workflow_dispatch:
   
 jobs:
-  post_deploy:
+  trigger_Pages_Publish_in_other_Repo:
     if: github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Pages Publish in other Repos
+      - name: T000_TestRepoWED
         run: |
           curl -X POST \
             -H "Accept: application/vnd.github+json" \
