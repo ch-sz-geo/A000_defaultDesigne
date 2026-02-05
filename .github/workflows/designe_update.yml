@@ -28,4 +28,10 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.Disbatch_Action }}" \
             https://api.github.com/repos/ch-sz-geo/T001_TestRepoWED/dispatches \
             -d '{"event_type":"run-external-workflow","client_payload":{"ref":"main"}}'
-     
+      - name: A254
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.Disbatch_Action }}" \
+            https://api.github.com/repos/ch-sz-geo/A254/dispatches \
+            -d '{"event_type":"run-external-workflow","client_payload":{"ref":"main"}}    
